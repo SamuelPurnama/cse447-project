@@ -1,0 +1,2 @@
+# Python dependencies for CSE447 project
+numpy

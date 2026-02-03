@@ -1,5 +1,43 @@
+# Byte-compiled / optimized / DLL files
 *.py[cod]
+*$py.class
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Project directories
 work/
 output/
 submit/
 submit.zip
+*.zip
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Logs and temp
+*.log
+*.tmp
+.cache/
