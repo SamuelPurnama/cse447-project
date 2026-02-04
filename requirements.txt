@@ -1,2 +1,8 @@
 # Python dependencies for CSE447 project
 numpy
+# Bolmo-1B (byte-level LM); Docker image may already provide torch
+torch
+transformers>=4.57.3
+xlstm==2.0.4
+huggingface_hub>=0.20.0
+transformers==4.57.3
