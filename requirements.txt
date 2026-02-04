@@ -9,3 +9,8 @@ transformers==4.57.3
 # Phase 2: HPLT download and NFC preprocessing
 requests
 zstandard
+# Fine-tuning: LoRA + SFT
+trl
+peft
+datasets
+accelerate
