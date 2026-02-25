@@ -6,6 +6,7 @@ torch
 transformers>=4.57.3
 xlstm==2.0.4
 huggingface_hub>=0.20.0
+ijson
 transformers==4.57.3
 # Phase 2: HPLT download and NFC preprocessing
 requests
@@ -15,3 +16,7 @@ trl
 peft
 datasets
 accelerate
+# Language detection for ByT5/Bolmo routing
+langdetect
+# Qwen3-4B-Base: 4-bit quantization
+bitsandbytes>=0.41.0
