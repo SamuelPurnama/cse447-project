@@ -30,6 +30,9 @@ submit.zip
 .DS_Store
 Thumbs.db
 
+# Large installers (do not commit)
+Miniconda3*.sh
+
 # Docker
 .docker/
 
